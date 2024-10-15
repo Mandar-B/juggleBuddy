@@ -1,0 +1,56 @@
+/* Center the entire content both horizontally and vertically */
+.my-div {
+  display: flex;                /* Flexbox layout */
+  justify-content: center;       /* Horizontally center the content */
+  align-items: center;           /* Vertically center the content */
+  min-height: 100vh;             /* Full height of the viewport */
+  flex-direction: column;        /* Stack children vertically */
+  text-align: center;            /* Center-align the text inside */
+  background-color: #f9f9f9;     /* Optional background color */
+  margin: 0;                     /* Ensure no extra margins */
+}
+h1 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 5vh;           /* Space below the heading */
+  font-family: Arial, sans-serif;
+}
+/* Style for the heading */
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 18px;           /* Space below the heading */
+  font-family: Arial, sans-serif;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Hover effect for the buttons */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Image styling */
+img {
+  margin-top: 20px;              /* Space between the button and video */
+  border: 2px solid #ccc;         /* Border around the video */
+  border-radius: 10px;            /* Rounded corners */
+  width: 640px;
+  height: 480px;
+}
+
+/* Optional body styling to remove margins/padding */
+body {
+  margin: 0;
+  padding: 0;
+}
